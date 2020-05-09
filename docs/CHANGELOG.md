@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/jeantimex/dummy-tools-1/compare/v1.3.0...v1.4.0) (2020-05-09)
+
+
+### Features
+
+* fix package.json version ([7fffff3](https://github.com/jeantimex/dummy-tools-1/commit/7fffff3c221ce7b2d852391ad0216e7416bcb847))
+
 # [1.3.0](https://github.com/jeantimex/dummy-tools-1/compare/v1.2.0...v1.3.0) (2020-05-09)
 
 
