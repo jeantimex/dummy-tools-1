@@ -1,0 +1,35 @@
+{
+  "name": "dummy-tools-1",
+  "version": "0.0.0-development",
+  "description": "Dummy tools 1",
+  "main": "index.js",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeantimex/dummy-tools-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeantimex/dummy-tools-1/issues"
+  },
+  "homepage": "https://github.com/jeantimex/dummy-tools-1#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "husky": "^4.2.5",
+    "semantic-release": "^17.0.7"
+  }
+}
